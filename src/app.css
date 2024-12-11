@@ -1,1 +1,27 @@
 @import 'tailwindcss';
+
+@font-face {
+    font-family: Array;
+    font-style: normal;
+    font-weight: 400;
+    src: url('lib/fonts/Array-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Array;
+    font-style: normal;
+    font-weight: 600;
+    src: url('lib/fonts/Array-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Array;
+    font-style: normal;
+    font-weight: 700;
+    src: url('lib/fonts/Array-Bold.woff2') format('woff2');
+}
+
+@theme {
+    --font-mono: Monaspace;
+    --font-array: Array;
+}
